@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "avatar": "images/1.jpg",
+    "displayName": "TJ",
+    "verified": true,
+    "username": "@tjournal",
+    "timeLeft": "25m",
+    "text": "первый текст",
+    "image": "../../images/2.jpg",
+    "countComments": "2",
+    "countLikes": "9",
+    "countRetweets": "12",
+    "isLiked": false
+  },
+  {
+    "id": 2,
+    "avatar": "images/1.jpg",
+    "displayName": "TJ",
+    "verified": true,
+    "username": "@tjournal",
+    "timeLeft": "25m",
+    "text": "второй текст",
+    "image": "/images/2.jpg",
+    "countComments": "2",
+    "countLikes": "9",
+    "countRetweets": "5",
+    "isLiked": true
+  },
+  {
+    "id": 3,
+    "avatar": "images/1.jpg",
+    "displayName": "TJ",
+    "verified": true,
+    "username": "@tjournal",
+    "timeLeft": "25m",
+    "text": "третий текст",
+    "image": "",
+    "countComments": "2",
+    "countLikes": "9",
+    "countRetweets": "2",
+    "isLiked": true
+  }
+]
+
