@@ -1,9 +1,6 @@
 import express from 'express';
 import fs from 'fs';
 
-const app = express();
-app.use(express.json());
-
 const router = express.Router();
 
 //TODO: Написать запрос на получение всех пользователей

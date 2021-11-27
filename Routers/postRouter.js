@@ -1,9 +1,6 @@
 import express from 'express';
 import fs from 'fs';
 
-const app = express();
-app.use(express.json());
-
 const urlencodedParser = express.urlencoded({extended: false});
 
 //TODO: Написать роут для твиттов (напр. /post)

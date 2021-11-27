@@ -1,8 +1,5 @@
 import express from 'express';
 
-const app = express();
-app.use(express.json());
-
 const urlencodedParser = express.urlencoded({extended: false});
 
 const router = express.Router();
