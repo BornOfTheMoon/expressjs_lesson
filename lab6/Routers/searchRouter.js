@@ -5,9 +5,9 @@ import fs from 'fs';
 const router = express.Router();
 
 //TODO: Написать запрос на поиск среди твиттов (просто по совпадению куска текста)
-router.post('/', (req, res) => {
+router.get('/', (req, res) => {
     const data = fs.readFileSync('Data/posts.json', 'utf8');
-    const posts = JSON.parse(data).filter((value) => value.text.includes(req.body.search));
+    const posts = JSON.parse(data).filter((value) => value.text.includes(req.query.search));
     res.send(posts[0]);
 })
 
